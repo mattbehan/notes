@@ -1,0 +1,9 @@
+Starting a new rails app:
+-Set the
+  rails new -d postgresql -T jabronisalad
+-Kill turbolinks with these steps:
+  1. Remove the gem 'turbolinks' line from your Gemfile.
+  2. Remove the //= require turbolinks from your     app/assets/javascripts/application.js .
+  3. Remove the two "data-turbolinks-track" => true hash key/value pairs from your app/views/layouts/application.html.erb .
+
+
