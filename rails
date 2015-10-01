@@ -6,4 +6,20 @@ Starting a new rails app:
   2. Remove the //= require turbolinks from your     app/assets/javascripts/application.js .
   3. Remove the two "data-turbolinks-track" => true hash key/value pairs from your app/views/layouts/application.html.erb .
 
+you need to pass an instance variable to form_for
 
+pe- kraken shortcut
+er- squid (snippet) shortcut
+
+before_action :action_name, only[:new, :create]] <-- optional
+
+
+path_helpers
+
+Is there any way to put better verifications on peoples passwords?
+
+The default environment in Rails is development. If you ever need to run the console in another environment, just specify it as an argument (rails console test)
+In order to VIEW it in a different environment, run it with rails server --environment production
+  however, you will have to run a production migration (rake db:migrate RAILS_ENV=production)
+you can check the environment by saying Rails.env
+ ENDED at LISTING 7.2:
